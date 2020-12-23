@@ -12,7 +12,7 @@ const router = new vueRouter({
             {
                 path: '/',
                 name: "root",
-                component: UserAuth
+                component: App
             },
             {
                 path: '/usuario/:username',
